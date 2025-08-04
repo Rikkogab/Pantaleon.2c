@@ -31,8 +31,7 @@ public class Bank1 {
 
                     if (bc.verifyAccount(accountNo, pin)) {
                         System.out.println("LOGIN SUCCESS");
-                        // You can add more banking options here (e.g., view balance)
-                        bc.viewBalance(); // Optional: show balance after login
+                        bc.viewBalance();   
                         success = true;
                         break;
                     } else {
